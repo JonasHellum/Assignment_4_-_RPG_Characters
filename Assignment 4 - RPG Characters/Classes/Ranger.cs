@@ -5,7 +5,7 @@ public class Ranger : Classes
     public Ranger(String name) : base(name)
     {
         description = "Mastery with the bow and friendly with nature.";
-        attack = "Sends an eagle to attack";
+        attack = "Eagle attack";
         attackDamage = "4";
         affixes = "curses the target with Curse of the woods";
     }

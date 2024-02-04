@@ -38,13 +38,13 @@ public class Classes
     {
         if (weapon != null)
         {
-            Console.WriteLine($"You are a {ToString()} equiped with a {weapon.ToString()}");
+            Console.WriteLine($"You are a {ToString()} named {name} equiped with a {weapon.ToString()}");
             weapon.Use();
         }
         else
         {
-            Console.WriteLine($"You are a {ToString()} equiped with nothing");
-            Console.WriteLine($"You used {attack} which did {attackDamage} damage + {affixes}");
+            Console.WriteLine($"You are a {ToString()} named {name} equiped with nothing");
+            Console.WriteLine($"You used {attack} which did {attackDamage} damage + {affixes}\n");
         }
     }
 

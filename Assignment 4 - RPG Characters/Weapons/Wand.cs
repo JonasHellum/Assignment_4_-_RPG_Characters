@@ -5,7 +5,7 @@ public class Wand : Weapons
     public Wand()
     {
         attackDescription = "shoots out a small lightning ball";
-        attackMessage = "wand shot";
+        attackMessage = "Wand shot";
         affixes = "stuns the target";
         attackDamage = "4";
     }

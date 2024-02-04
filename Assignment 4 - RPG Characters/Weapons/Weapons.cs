@@ -32,7 +32,7 @@ public class Weapons
     
     private String Attack()
     {
-        return $"You used {attackMessage} which did {attackDamage} damage + {affixes}";
+        return $"You used {attackMessage} which did {attackDamage} damage + {affixes}\n";
     }
 
     public void Use()

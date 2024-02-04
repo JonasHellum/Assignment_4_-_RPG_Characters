@@ -5,9 +5,9 @@ public class Wizard : Classes
     public Wizard(String name) : base(name)
     {
         description = "A powerful spellcaster";
-        attack = "Fire boulder";
+        attack = "Water boulder";
         attackDamage = "11";
-        affixes = "burns the target";
+        affixes = "slows the target";
     }
     
     public override string ToString()

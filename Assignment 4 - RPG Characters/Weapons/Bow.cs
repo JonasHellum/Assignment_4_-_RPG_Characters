@@ -6,7 +6,7 @@ public class Bow : Weapons
     {
         attackDescription = "A bow imbued with the power of fire, shoots a powerful arrow.";
         attackMessage = "Super shot";
-        affixes = "set's the target on fire";
+        affixes = "burns the target";
         attackDamage = "7";
     }
     

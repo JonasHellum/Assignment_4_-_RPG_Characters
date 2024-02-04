@@ -5,7 +5,7 @@ public class Sword : Weapons
     public Sword()
     {
         attackDescription = "A huge two-handed sword, has enough power to slice whatever comes in it's path";
-        attackMessage = "cleave";
+        attackMessage = "Cleave";
         affixes = "bleeds the target";
         attackDamage = "9";
     }
