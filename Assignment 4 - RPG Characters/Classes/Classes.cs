@@ -9,7 +9,7 @@ public class Classes
     protected String attack;
     protected String attackDamage;
     protected String affixes;
-    protected Weapons.Weapons weapon;
+    private Weapons.Weapons weapon;
     
 
     public Classes(String name)

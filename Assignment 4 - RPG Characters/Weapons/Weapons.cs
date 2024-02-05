@@ -25,7 +25,7 @@ public class Weapons
         return affixes;
     }
 
-    public String getAttackDamage()
+    public String GetAttackDamage()
     {
         return attackDamage;
     }
